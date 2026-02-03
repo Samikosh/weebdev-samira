@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.fb-container {
+    display: flex;
+    width: 100%;
+    max-width: 980px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+
+.fb-left {
+    max-width: 500px;
+    padding-bottom: 112px; 
+}
+
+.logo_f {
+    font-size: 64px;
+    font-weight: bold;
+    color: #1877f2;
+    width: 160px;
+    height: 106px;
+    margin-left: -28px;
+    left: 25px;
+    position: relative;
+}
+
+.fb-left h2 {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    color: #1c1e21;
+}
+
+
+.fb-right {
+    width: 100%;
+    max-width: 396px;
+}
+
+.login-card {
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    height: 52px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    margin-bottom: 12px;
+    outline-color: #1877f2;
+}
+
+.btn-login {
+    width: 100%;
+    height: 48px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.forgot-link {
+    display: block;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 16px 0;
+}
+
+.forgot-link:hover { text-decoration: underline; }
+
+.divider {
+    height: 1px;
+    background: #dadde1;
+    margin: 20px 0;
+}
+
+.btn-new-acc {
+    background-color: #42b72a;
+    color: white;
+    padding: 0 16px;
+    height: 48px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.create-page {
+    font-size: 14px;
+    margin-top: 28px;
+    text-align: center;
+}
+
+
+.fb-footer {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.footer-inner {
+    max-width: 980px;
+    margin: 0 auto;
+    color: #737373;
+    font-size: 12px;
+}
+
+.languages, .footer-links {
+    line-height: 1.6;
+}
+
+.footer-inner span {
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.footer-inner span:hover { text-decoration: underline; }
+
+.footer-divider {
+    height: 1px;
+    background: #dddfe2;
+    margin: 8px 0;
+}
+
+.meta-copy {
+    margin-top: 20px;
+}
+
+.plus-btn {
+    background: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    padding: 0 8px;
+    cursor: pointer;
+}
