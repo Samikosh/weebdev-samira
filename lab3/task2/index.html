@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List - Lab 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My ToDo List</h1>
+        </header>
+        
+        <main>
+            <form id="todo-form" class="todo-form">
+                <label for="todo-input" class="visually-hidden">Add new task</label>
+                <input 
+                    type="text" 
+                    id="todo-input" 
+                    class="todo-input" 
+                    placeholder="Enter a new task..."
+                    required
+                >
+                <button type="submit" class="add-btn">Add Task</button>
+            </form>
+
+            <section class="todo-section">
+                <h2>Your Tasks</h2>
+                <ul id="todo-list" class="todo-list">
+                    
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
